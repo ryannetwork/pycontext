@@ -1,6 +1,6 @@
 Lex	Type	Regex	Direction
-athero	EVIDENCE_OF_ATHEROSCLEROSIS	(athero)	
-vascular calc	EVIDENCE_OF_ATHEROSCLEROSIS	(vascular calc)
-arteriosclerosis	EVIDENCE_OF_ATHEROSCLEROSIS		
-arterial plaque	EVIDENCE_OF_ATHEROSCLEROSIS		
-calcified plaque	EVIDENCE_OF_ATHEROSCLEROSIS	(\bcalcific\b|\bcalcified\b)\splaque	
+athero	EVIDENCE_OF_ATHEROSCLEROSIS	(\sathero\s)	
+vascular calc	EVIDENCE_OF_ATHEROSCLEROSIS	(\svascular\scalc\s)	
+arteriosclerosis	EVIDENCE_OF_ATHEROSCLEROSIS (\sarteriosclerosis\s)	
+arterial plaque	EVIDENCE_OF_ATHEROSCLEROSIS	(\sarteriosclerosis\s)	
+calcified plaque	EVIDENCE_OF_ATHEROSCLEROSIS	(\bcalcific\b|\bcalcified\b)\splaque\s	
