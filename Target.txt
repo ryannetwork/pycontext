@@ -2,5 +2,5 @@ Lex	Type 	Reg	Direction	codes
 athero 	EVIDENCE_OF_ATHERO 			
 vascular calc	EVIDENCE_OF_VASCULAR			
 arteriosclerosis	EVIDENCE_OF_ATHEROSCLEROSIS			
-arterial plaque EVIDENCE_OF_ARTPLAQ			
-calcified plaque	EVIDENCE_OF_CALCPLAQ			
+arterial plaque EVIDENCE_OF_ARTERIAL_PLAQUE			
+calcified plaque	EVIDENCE_OF_CALCIFIED_PLAQUE			
