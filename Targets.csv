@@ -1,6 +1,8 @@
-Lex,Type,Regex,Direction
-athero,EVIDENCE_OF_ATHEROSCLEROSIS,[a-z]+,
-vascular calc,EVIDENCE_OF_ATHEROSCLEROSIS,[a-z]+,
-arteriosclerosis,EVIDENCE_OF_ATHEROSCLEROSIS,,
-arterial plaque,EVIDENCE_OF_ATHEROSCLEROSIS,,
-calcified plaque,EVIDENCE_OF_ATHEROSCLEROSIS,,
+Lex,Type,Reg,Direction
+athero,EVIDENCE_OF_ATHEROSCLEROSIS, ,
+atherosclerosis,EVIDENCE_OF_ATHEROSCLEROSIS,(\batherosclerosis\b|\batheroclerotic\b),
+vascular calc,EVIDENCE_OF_ATHEROSCLEROSIS,\svascular\scalc,		
+arteriosclerosis,EVIDENCE_OF_ATHEROSCLEROSIS, , 		
+arterial plaque,EVIDENCE_OF_ATHEROSCLEROSIS,\sarterial\splaque, 
+calcified plaque,EVIDENCE_OF_ATHEROSCLEROSIS,\s(\bcalcific\b|\bcalcified\b)\splaque, 	
+
