@@ -1,5 +1,5 @@
-Lex	Type 	Reg	Direction	codes
-athero 	EVIDENCE_OF_ATHEROSCLEROSIS
+Lex	Type 	Reg	Direction
+athero 	EVIDENCE_OF_ATHEROSCLEROSIS		
 atherosclerosis	EVIDENCE_OF_ATHEROSCLEROSIS	(\batherosclerosis\b|\batheroclerotic\b)
 vascular calc	EVIDENCE_OF_ATHEROSCLEROSIS	\svascular\scalc			
 arteriosclerosis	EVIDENCE_OF_ATHEROSCLEROSIS			
