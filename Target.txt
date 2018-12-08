@@ -1,4 +1,4 @@
-Lex	Type 	Reg	Direction	codes
+Lex	Type 	Reg	Direction
 athero 	EVIDENCE_OF_ATHEROSCLEROSIS	
 vascular calc	EVIDENCE_OF_ATHEROSCLEROSIS			
 arteriosclerosis	EVIDENCE_OF_ATHEROSCLEROSIS				
