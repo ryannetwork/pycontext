@@ -1,12 +1,11 @@
 Lex	Type	Regex	Direction	Unnamed: 4	Unnamed: 5	Unnamed: 6	Codes
 are ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
-be ruled out	INDICATION		backward				
-being ruled out	INDICATION		backward				
+be ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
+being ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
 can be ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
 cannot be excluded	AMBIVALENT_EXISTENCE		backward				
 cannot totally be excluded	PROBABLE_NEGATED_EXISTENCE		backward				
 could be ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
-examination	INDICATION	\b(examination|exam|study)\b	backward				
 free	DEFINITE_NEGATED_EXISTENCE		backward				
 has been ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
 have been ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
@@ -16,24 +15,23 @@ is not excluded	AMBIVALENT_EXISTENCE	(is|was|are|were)\snot\sexcluded	backward
 is not entirely excluded	PROBABLE_NEGATED_EXISTENCE	(is|was|are|were|does)\snot\s(entirely|totally|definitely|completely\s) excluded	backward	2/28/2013	added definitely	removed ed	
 is present	DEFINITE_EXISTENCE	(is|are) present	backward	4/29/2013			
 is ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
-is to be ruled out	INDICATION		backward				
+is to be ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
 is ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
 might be ruled out	PROBABLE_NEGATED_EXISTENCE		backward				
 must be ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
-not been ruled out	INDICATION		backward				
+not been ruled out	PROBABLE_EXISTENCE		backward				
 not definitively seen	PROBABLE_NEGATED_EXISTENCE	not definitively (seen|visualized)	backward	3/22/2013			
 not excluded	AMBIVALENT_EXISTENCE	not\s(excluded|ruled\sout)	backward				
 now measuring	HISTORICAL		backward				
-ought to be ruled out	INDICATION		backward				
+ought to be ruled out	PROBABALE_NEGATED_EXISTENCE		backward				
 progressed	HISTORICAL		backward	3/22/2013			
-protocol	INDICATION		backward				
 resolved	HISTORICAL		backward				
-should be ruled out	INDICATION		backward				
+should be ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
 suspected	PROBABLE_EXISTENCE		backward	4/29/2013			
 unlikely	DEFINITE_NEGATED_EXISTENCE		bidirectional				
 varying ages	HISTORICAL		backward				
 was ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
-will be ruled out	INDICATION		backward				
+will be ruled out	DEFINITE_NEGATED_EXISTENCE		backward				
 would not be expected	PROBABLE_NEGATED_EXISTENCE		backward	2/28/2013					
 again	HISTORICAL		bidirectional				
 age indeterminate	HISTORICAL		bidirectional				
@@ -44,7 +42,6 @@ chronic	HISTORICAL	\bchronic[a-z]*\b	bidirectional	2/28/2013	chronicity: make re
 clear	PROBABLE_NEGATED_EXISTENCE		bidirectional				
 diminished	HISTORICAL		bidirectional				
 equivocal	PROBABLE_EXISTENCE		bidirectional				
-evaluation	INDICATION		bidirectional				
 evolving	HISTORICAL		bidirectional				
 healing	HISTORICAL	\b(healing|healed)\b	bidirectional				
 improved	HISTORICAL	improved|improving|improvement	bidirectional			4/2013	
@@ -80,10 +77,9 @@ versus	AMBIVALENT_EXISTENCE		bidirectional
 absence of	DEFINITE_NEGATED_EXISTENCE		forward				
 adequate to rule the patient out	DEFINITE_NEGATED_EXISTENCE		forward				
 appears to be	DEFINITE_EXISTENCE		forward				
-assessment for	INDICATION		forward				
 at risk for	FUTURE	(at\s)?risk\s(in\sthe\sfuture\s)?(for|of)	forward	4/29/2013			
 atypical for	PROBABLE_NEGATED_EXISTENCE		forward	4/29/2013			
-be ruled out for	INDICATION		forward				
+be ruled out for	DEFINITE_NEGATED_EXISTENCE		forward				
 can be ruled out for	DEFINITE_NEGATED_EXISTENCE		forward				
 can rule the patient out	DEFINITE_NEGATED_EXISTENCE	can rule (her|him|the patient) out	forward				
 cannot	AMBIVALENT_EXISTENCE		forward				
@@ -113,11 +109,8 @@ did rule (the patient|him|her) out	DEFINITE_NEGATED_EXISTENCE		forward
 did rule out	DEFINITE_NEGATED_EXISTENCE		forward				
 differential diagnosis would include	AMBIVALENT_EXISTENCE	differential\s((diagnosis|considerations)\s)?((would|could)\sinclud[a-z]*)?	forward				
 documented	HISTORICAL		forward				
-evaluate for	INDICATION		forward				
-evaluation of	INDICATION	evaluation\s(of|for)	forward				
 evidence	DEFINITE_EXISTENCE		forward				
 did rule her out against	DEFINITE_NEGATED_EXISTENCE		forward				
-examination for	INDICATION	(study|exam|examination) for	forward				
 fails to reveal	DEFINITE_NEGATED_EXISTENCE		forward				
 free of	DEFINITE_NEGATED_EXISTENCE		forward				
 gram negative	PSEUDONEG		forward				
@@ -126,8 +119,8 @@ highly suggestive	DEFINITE_EXISTENCE		forward	4/29/2013
 history of	HISTORICAL		forward				
 if there are	FUTURE		forward	2/28/2013			
 if there is concern for	FUTURE		forward				
-is to be ruled out for	INDICATION		forward				
-is more sensitive	INDICATION	is more sensitive	forward				
+is to be ruled out for	DEFINITE_NEGATED_EXISTENCE		forward				
+is more sensitive	PROBABLE_EXISTENCE	is more sensitive	forward				
 known	HISTORICAL	\bknown\b	forward				
 low probability	PROBABLE_NEGATED_EXISTENCE		forward				
 may be related	PROBABLE_EXISTENCE		forward	2/28/2013			
@@ -216,9 +209,7 @@ rules out for	DEFINITE_NEGATED_EXISTENCE		forward
 rules the patient out	DEFINITE_NEGATED_EXISTENCE		forward				
 rules the patient out for	DEFINITE_NEGATED_EXISTENCE		forward				
 sequelae of	HISTORICAL		forward				
-should be ruled out for	INDICATION		forward				
 simulating	PROBABLE_NEGATED_EXISTENCE		forward	3/22/2013			
-study for detection	INDICATION		forward				
 sufficient to rule out	DEFINITE_NEGATED_EXISTENCE	sufficient\sto\srule\s((her|him|the patient|the subject)\s)?out	forward				
 suspicious	PROBABLE_EXISTENCE		forward				
 suspicous	PROBABLE_EXISTENCE		forward				
@@ -229,8 +220,6 @@ unable to assess	AMBIVALENT_EXISTENCE		forward
 unremarkable for	DEFINITE_NEGATED_EXISTENCE		forward				
 warned of	FUTURE		forward	3/22/2013			
 were warned	FUTURE		forward				
-what must be ruled out is	INDICATION		forward				
-will be ruled out for	INDICATION		forward				
 with no	DEFINITE_NEGATED_EXISTENCE		forward				
 without	DEFINITE_NEGATED_EXISTENCE		forward				
 without difficulty	PSEUDONEG		forward				
